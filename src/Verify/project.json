@@ -1,0 +1,24 @@
+{
+  "authors": [ "vishal anand" ],
+  "copyright": "vishal_24_anand@hotmail.com",
+  "dependencies": {
+    "NETStandard.Library": "1.6.0"
+  },
+  "description": "Yet another assert library for unit testing...",
+  "frameworks": {
+    "netstandard1.6": {
+      "imports": "dnxcore50"
+    }
+  },
+  "packOptions": {
+    "summary": "yet another library todo asserts.",
+    "tags": ["verify", "assert", "unit testing"],
+    "repository": {
+      "url": "",
+      "type": "git"
+    },
+    "owners": ["vishal anand"]
+  },
+  "title": "Verify",
+  "version": "1.0.0-*"
+}
