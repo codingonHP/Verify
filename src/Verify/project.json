@@ -6,7 +6,7 @@
   },
   "description": "Yet another assert library for unit testing...",
   "frameworks": {
-    "netstandard1.6": {
+    "net461": {
       "imports": "dnxcore50"
     }
   },
