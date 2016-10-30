@@ -1,8 +1,8 @@
-﻿namespace VerifyThatUnitTest
-{
-    using Xunit;
-    using Verify;
+﻿using VerifyContainer;
+using Xunit;
 
+namespace VerifyThatUnitTest.UnitTests
+{
     public class StringUnitTest
     {
         [Theory]

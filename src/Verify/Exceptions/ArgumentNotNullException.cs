@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Verify
+namespace VerifyContainer.Exceptions
 {
     internal class ArgumentNotNullException : Exception
     {

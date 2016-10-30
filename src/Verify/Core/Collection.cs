@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using Verify.Exceptions;
+using VerifyContainer.Exceptions;
 
-namespace Verify
+namespace VerifyContainer
 {
     public static partial class Verify
     {
@@ -26,15 +26,6 @@ namespace Verify
             throw new CollectionNotEmpty($"Source array is not empty. Has { collectionToVerify.Count } elements");
         }
 
-        public static bool ThatCollectionIsOfType<T>(IEnumerable<T> collection, Type got)
-        {
-            if (collection.GetType() == got)
-            {
-                return true;
-            }
-
-            throw new CollectionContainsInvalidType($"collection contains type of {collection.GetType()} but were expecting type of {got}");
-        }
 
         public static bool ThatCollectionContainsExactlyXElements<T>(ICollection<T> collectionToVerify, int memberCount)
         {

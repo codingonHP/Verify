@@ -1,7 +1,7 @@
 ﻿using System;
-using Verify.Exceptions;
+using VerifyContainer.Exceptions;
 
-namespace Verify
+namespace VerifyContainer
 {
     public static partial class Verify
     {

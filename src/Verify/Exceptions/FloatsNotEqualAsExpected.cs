@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Verify.Exceptions
+namespace VerifyContainer.Exceptions
 {
     internal class FloatsNotEqualAsExpected : Exception
     {

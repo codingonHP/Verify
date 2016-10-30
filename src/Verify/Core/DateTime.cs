@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Verify
+namespace VerifyContainer
 {
     public static partial class Verify
     {
