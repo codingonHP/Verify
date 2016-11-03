@@ -5,7 +5,7 @@ namespace VerifyContainer
 {
     public static partial class Verify
     {
-        public static bool ThatTheyAreEqual(string expected, string got)
+        public static bool ThatStringsAreEqual(string expected, string got)
         {
             if (!expected.Equals(got))
             {
@@ -15,7 +15,7 @@ namespace VerifyContainer
             return true;
         }
 
-        public static bool ThatTheyAreEqual(string expected, string got, StringComparison comparison)
+        public static bool ThatStringsAreEqual(string expected, string got, StringComparison comparison)
         {
             bool equals = false;
             switch (comparison)

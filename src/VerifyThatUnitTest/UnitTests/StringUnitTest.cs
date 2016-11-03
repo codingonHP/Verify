@@ -11,7 +11,7 @@ namespace VerifyThatUnitTest.UnitTests
         [InlineData("Vishal Anand", "Vishal Anand")]
         public void VerifyIfStringsAreEqual(string expected, string got)
         {
-            Verify.ThatTheyAreEqual(expected, got);
+            Verify.ThatStringsAreEqual(expected, got);
         }
     }
 }
